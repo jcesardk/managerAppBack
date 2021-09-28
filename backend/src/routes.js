@@ -20,6 +20,7 @@ routes.put('/user', userController.updateUsers);
 //Associa App ao usuario
 routes.post('/associarApp', userController.associarAppUsario);
 
+
 //Dados de aplicativos
 routes.post('/aplicativo', appController.criaApp);
 routes.get('/aplicativo', appController.listaApps);

@@ -19,6 +19,7 @@ mongoose.connect('mongodb://localhost:27017', {
         console.log('Mongo DB conectado!');
     }
 })
+mongoose.Promise = global.Promise;
 
 app.use(cors());
 app.use(cookieParser());
@@ -28,4 +29,5 @@ app.use(routes);
 app.listen(3000, function(){
     console.log("Servidor iniciou");
 })
+
 

@@ -10,6 +10,7 @@
 
 ## Install dependencies
 
+- nvm install v14.17.6
 - npm install express cookie-parser cors mongoose nodemon path
 - npm install crypto
 
